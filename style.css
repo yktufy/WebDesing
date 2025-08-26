@@ -1,15 +1,15 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #fefefe;
+    background-color: #00ccff; /*Cor de fundo alterada para azul*/
     text-align: center;
     padding: 50px;
 }
 
 button {
     padding: 10px 20px;
-    background-color: #007BFF;
+    background-color: #ffffff; /*Cor de fundo do botão alterada para branco*/
     border: none;
-    color: white;
+    color: rgb(0, 255, 4); /*Cor do botão alterada para verde*/
     font-size: 16px;
     border-radius: 5px;
 }
