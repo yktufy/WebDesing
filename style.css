@@ -1,19 +1,10 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #fefefe;
-    text-align: center;
-    padding: 50px;
+.destaque { /*Deixa o fundo do texto amarelo*/
+    background-color: #fff9a6;
 }
 
-button {
-    padding: 10px 20px;
-    background-color: #007BFF;
-    border: none;
-    color: white;
-    font-size: 16px;
-    border-radius: 5px;
-}
-
-button:hover {
-    background-color: #005663;
+.container { /*Personaliza a classe*/
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 15px;
+    font-family: sans-serif, serif;
 }
