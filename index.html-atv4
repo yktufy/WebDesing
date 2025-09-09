@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    
+<head>
+    <meta charset="UTF-8">
+    <title>Atividade 04</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <header>
+        <h1>Atividade 04 - HTML5</h1>
+    </header>
+
+    <main>
+        <h2>Bolo de chocolate</h2>
+        <img src="imagens/boloChocolate.jpeg" alt="Bolo de chocolate" width="300" height="200"><br><br>
+
+        <h2>Torta de limão</h2>
+        <img src="imagens/TortaLimao.jpeg" alt="Torta de limão" width="300" height="200"><br><br>
+
+        <h2>Morango do amor</h2>
+        <img src="imagens/MorangoDoAmor.jpeg" alt="Morango do amor" width="300" height="200"><br><br>
+
+        <video src="videos/VideoMorangoDoAmor.mp4" controls width="400"></video><br><br>
+
+        <audio controls>
+            <source src="Audios/AudioBoloChocolate.mp3" type="audio/mpeg">
+            <source src="Audios/AudioBoloChocolate.ogg" type="audio/ogg">
+            Seu navegador não suporta áudio.
+        </audio><br><br>
+
+        <form action="processar.php" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required><br><br>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem"></textarea><br><br>
+
+            <input type="submit" value="Enviar">
+        </form><br>
+
+        <a href="https://www.google.com/?hl=pt-BR">Link Google</a><br><br>
+
+        <a href="https://www.google.com/?hl=pt-BR">
+            <img src="imagens/LogoGoogle.png" alt="Google" height="100">
+        </a><br><br>
+
+        <a href="https://www.google.com/?hl=pt-BR" target="_blank">
+            Abrir Google em nova aba
+        </a><br><br>
+
+        <h2>Modo de fazer Morango do Amor</h2>
+        <ol>
+            <li>Lavar o Morango</li>
+            <li>Fazer o caramelo</li>
+            <li>Passar o caramelo no morango</li>
+        </ol>
+
+         <h2>Ingredientes</h2>
+
+        <ul>
+            <li>Morango</li>
+            <li>Açucar</li>
+            <li>Corante</li>
+        </ul>
+
+        <h2>Tabela</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Bolo de chocolate(Pedaço)</th>
+                    <th>Torta de limão(Pedaço)</th>
+                    <th>Morango do Amor</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>35g de Açucar</td>
+                    <td>30g de Açucar</td>
+                    <td>25g de Açucar</td>
+                </tr>
+                <tr>
+                    <td>400 calorias</td>
+                    <td>350 calorias</td>
+                    <td>300 calorias</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p id="introducao">Bem-vindo ao nosso delicioso universo de sobremesas!
+             Aqui você vai encontrar o irresistível bolo de chocolate, macio e fofinho, 
+            a torta de limão, com seu sabor azedinho e refrescante, e o Morango do Amor, 
+            uma combinação perfeita de fruta e doçura. Cada fatia é feita para despertar 
+            o prazer de saborear momentos doces e inesquecíveis.</p>
+        <p class="destaque">Este parágrafo é destacado.</p>
+        <p class="destaque">Este também é destacado.</p>
+
+        <div class="container">
+            <h3>Subtítulo dentro da div</h3>
+            <p>Este é o primeiro parágrafo explicativo dentro da div.</p>
+            <p>Este é o segundo parágrafo explicativo dentro da div.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>Rodapé da página</p>
+    </footer>
+</body>
+</html>
